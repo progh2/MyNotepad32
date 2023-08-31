@@ -84,6 +84,7 @@
             this.끝내기ToolStripMenuItem.Name = "끝내기ToolStripMenuItem";
             this.끝내기ToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.끝내기ToolStripMenuItem.Text = "끝내기";
+            this.끝내기ToolStripMenuItem.Click += new System.EventHandler(this.끝내기ToolStripMenuItem_Click);
             // 
             // 도움말ToolStripMenuItem
             // 
@@ -98,6 +99,7 @@
             this.메모장정보ToolStripMenuItem.Name = "메모장정보ToolStripMenuItem";
             this.메모장정보ToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.메모장정보ToolStripMenuItem.Text = "메모장 정보";
+            this.메모장정보ToolStripMenuItem.Click += new System.EventHandler(this.메모장정보ToolStripMenuItem_Click);
             // 
             // textBox1
             // 
